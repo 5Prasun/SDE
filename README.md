@@ -9,13 +9,13 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 0 / 50  (0%)
+### Progress: 1 / 50  (2%)
 
 _Last updated: 2026-08-11_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
-| 01 | Two Sum | Easy | Arrays / Hashing | ⬜ |
+| 01 | [Two Sum](solutions/01_two-sum.cpp) | Easy | Arrays / Hashing | ✅ |
 | 02 | Best Time to Buy and Sell Stock | Easy | Arrays / Sliding Window | ⬜ |
 | 03 | Contains Duplicate | Easy | Arrays / Hashing | ⬜ |
 | 04 | Product of Array Except Self | Medium | Arrays / Prefix | ⬜ |
