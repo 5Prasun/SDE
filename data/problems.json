@@ -1,0 +1,402 @@
+[
+  {
+    "num": 1,
+    "name": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "topic": "Arrays / Hashing",
+    "file": "01_two-sum.cpp"
+  },
+  {
+    "num": 2,
+    "name": "Best Time to Buy and Sell Stock",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "Easy",
+    "topic": "Arrays / Sliding Window",
+    "file": "02_best-time-to-buy-and-sell-stock.cpp"
+  },
+  {
+    "num": 3,
+    "name": "Contains Duplicate",
+    "slug": "contains-duplicate",
+    "difficulty": "Easy",
+    "topic": "Arrays / Hashing",
+    "file": "03_contains-duplicate.cpp"
+  },
+  {
+    "num": 4,
+    "name": "Product of Array Except Self",
+    "slug": "product-of-array-except-self",
+    "difficulty": "Medium",
+    "topic": "Arrays / Prefix",
+    "file": "04_product-of-array-except-self.cpp"
+  },
+  {
+    "num": 5,
+    "name": "Maximum Subarray",
+    "slug": "maximum-subarray",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "05_maximum-subarray.cpp"
+  },
+  {
+    "num": 6,
+    "name": "Maximum Product Subarray",
+    "slug": "maximum-product-subarray",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "06_maximum-product-subarray.cpp"
+  },
+  {
+    "num": 7,
+    "name": "Find Minimum in Rotated Sorted Array",
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "topic": "Binary Search",
+    "file": "07_find-minimum-in-rotated-sorted-array.cpp"
+  },
+  {
+    "num": 8,
+    "name": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "topic": "Binary Search",
+    "file": "08_search-in-rotated-sorted-array.cpp"
+  },
+  {
+    "num": 9,
+    "name": "3Sum",
+    "slug": "3sum",
+    "difficulty": "Medium",
+    "topic": "Two Pointers",
+    "file": "09_3sum.cpp"
+  },
+  {
+    "num": 10,
+    "name": "Container With Most Water",
+    "slug": "container-with-most-water",
+    "difficulty": "Medium",
+    "topic": "Two Pointers",
+    "file": "10_container-with-most-water.cpp"
+  },
+  {
+    "num": 11,
+    "name": "Number of 1 Bits",
+    "slug": "number-of-1-bits",
+    "difficulty": "Easy",
+    "topic": "Bit Manipulation",
+    "file": "11_number-of-1-bits.cpp"
+  },
+  {
+    "num": 12,
+    "name": "Counting Bits",
+    "slug": "counting-bits",
+    "difficulty": "Easy",
+    "topic": "Bit Manipulation / DP",
+    "file": "12_counting-bits.cpp"
+  },
+  {
+    "num": 13,
+    "name": "Missing Number",
+    "slug": "missing-number",
+    "difficulty": "Easy",
+    "topic": "Math / Bit",
+    "file": "13_missing-number.cpp"
+  },
+  {
+    "num": 14,
+    "name": "Reverse Bits",
+    "slug": "reverse-bits",
+    "difficulty": "Easy",
+    "topic": "Bit Manipulation",
+    "file": "14_reverse-bits.cpp"
+  },
+  {
+    "num": 15,
+    "name": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "Medium",
+    "topic": "Sliding Window",
+    "file": "15_longest-substring-without-repeating-characters.cpp"
+  },
+  {
+    "num": 16,
+    "name": "Longest Repeating Character Replacement",
+    "slug": "longest-repeating-character-replacement",
+    "difficulty": "Medium",
+    "topic": "Sliding Window",
+    "file": "16_longest-repeating-character-replacement.cpp"
+  },
+  {
+    "num": 17,
+    "name": "Minimum Window Substring",
+    "slug": "minimum-window-substring",
+    "difficulty": "Hard",
+    "topic": "Sliding Window",
+    "file": "17_minimum-window-substring.cpp"
+  },
+  {
+    "num": 18,
+    "name": "Valid Anagram",
+    "slug": "valid-anagram",
+    "difficulty": "Easy",
+    "topic": "Hashing",
+    "file": "18_valid-anagram.cpp"
+  },
+  {
+    "num": 19,
+    "name": "Group Anagrams",
+    "slug": "group-anagrams",
+    "difficulty": "Medium",
+    "topic": "Hashing",
+    "file": "19_group-anagrams.cpp"
+  },
+  {
+    "num": 20,
+    "name": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "topic": "Stack",
+    "file": "20_valid-parentheses.cpp"
+  },
+  {
+    "num": 21,
+    "name": "Reverse Linked List",
+    "slug": "reverse-linked-list",
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "file": "21_reverse-linked-list.cpp"
+  },
+  {
+    "num": 22,
+    "name": "Linked List Cycle",
+    "slug": "linked-list-cycle",
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "file": "22_linked-list-cycle.cpp"
+  },
+  {
+    "num": 23,
+    "name": "Merge Two Sorted Lists",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "Easy",
+    "topic": "Linked List",
+    "file": "23_merge-two-sorted-lists.cpp"
+  },
+  {
+    "num": 24,
+    "name": "Merge k Sorted Lists",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "Hard",
+    "topic": "Heap / Linked List",
+    "file": "24_merge-k-sorted-lists.cpp"
+  },
+  {
+    "num": 25,
+    "name": "Remove Nth Node From End of List",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "file": "25_remove-nth-node-from-end-of-list.cpp"
+  },
+  {
+    "num": 26,
+    "name": "Reorder List",
+    "slug": "reorder-list",
+    "difficulty": "Medium",
+    "topic": "Linked List",
+    "file": "26_reorder-list.cpp"
+  },
+  {
+    "num": 27,
+    "name": "Invert Binary Tree",
+    "slug": "invert-binary-tree",
+    "difficulty": "Easy",
+    "topic": "Trees",
+    "file": "27_invert-binary-tree.cpp"
+  },
+  {
+    "num": 28,
+    "name": "Maximum Depth of Binary Tree",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "Easy",
+    "topic": "Trees",
+    "file": "28_maximum-depth-of-binary-tree.cpp"
+  },
+  {
+    "num": 29,
+    "name": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "topic": "Trees",
+    "file": "29_same-tree.cpp"
+  },
+  {
+    "num": 30,
+    "name": "Subtree of Another Tree",
+    "slug": "subtree-of-another-tree",
+    "difficulty": "Easy",
+    "topic": "Trees",
+    "file": "30_subtree-of-another-tree.cpp"
+  },
+  {
+    "num": 31,
+    "name": "Lowest Common Ancestor of a BST",
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "difficulty": "Medium",
+    "topic": "Trees / BST",
+    "file": "31_lowest-common-ancestor-of-a-binary-search-tree.cpp"
+  },
+  {
+    "num": 32,
+    "name": "Binary Tree Level Order Traversal",
+    "slug": "binary-tree-level-order-traversal",
+    "difficulty": "Medium",
+    "topic": "Trees / BFS",
+    "file": "32_binary-tree-level-order-traversal.cpp"
+  },
+  {
+    "num": 33,
+    "name": "Validate Binary Search Tree",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "Medium",
+    "topic": "Trees / BST",
+    "file": "33_validate-binary-search-tree.cpp"
+  },
+  {
+    "num": 34,
+    "name": "Kth Smallest Element in a BST",
+    "slug": "kth-smallest-element-in-a-bst",
+    "difficulty": "Medium",
+    "topic": "Trees / BST",
+    "file": "34_kth-smallest-element-in-a-bst.cpp"
+  },
+  {
+    "num": 35,
+    "name": "Construct Binary Tree from Preorder and Inorder",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "difficulty": "Medium",
+    "topic": "Trees",
+    "file": "35_construct-binary-tree-from-preorder-and-inorder-traversal.cpp"
+  },
+  {
+    "num": 36,
+    "name": "Find Median from Data Stream",
+    "slug": "find-median-from-data-stream",
+    "difficulty": "Hard",
+    "topic": "Heap / Design",
+    "file": "36_find-median-from-data-stream.cpp"
+  },
+  {
+    "num": 37,
+    "name": "Top K Frequent Elements",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "Medium",
+    "topic": "Heap / Bucket Sort",
+    "file": "37_top-k-frequent-elements.cpp"
+  },
+  {
+    "num": 38,
+    "name": "Combination Sum",
+    "slug": "combination-sum",
+    "difficulty": "Medium",
+    "topic": "Backtracking",
+    "file": "38_combination-sum.cpp"
+  },
+  {
+    "num": 39,
+    "name": "Word Search",
+    "slug": "word-search",
+    "difficulty": "Medium",
+    "topic": "Backtracking / DFS",
+    "file": "39_word-search.cpp"
+  },
+  {
+    "num": 40,
+    "name": "Number of Islands",
+    "slug": "number-of-islands",
+    "difficulty": "Medium",
+    "topic": "Graphs / DFS",
+    "file": "40_number-of-islands.cpp"
+  },
+  {
+    "num": 41,
+    "name": "Clone Graph",
+    "slug": "clone-graph",
+    "difficulty": "Medium",
+    "topic": "Graphs / DFS",
+    "file": "41_clone-graph.cpp"
+  },
+  {
+    "num": 42,
+    "name": "Course Schedule",
+    "slug": "course-schedule",
+    "difficulty": "Medium",
+    "topic": "Graphs / Topological Sort",
+    "file": "42_course-schedule.cpp"
+  },
+  {
+    "num": 43,
+    "name": "Pacific Atlantic Water Flow",
+    "slug": "pacific-atlantic-water-flow",
+    "difficulty": "Medium",
+    "topic": "Graphs / DFS",
+    "file": "43_pacific-atlantic-water-flow.cpp"
+  },
+  {
+    "num": 44,
+    "name": "Climbing Stairs",
+    "slug": "climbing-stairs",
+    "difficulty": "Easy",
+    "topic": "Dynamic Programming",
+    "file": "44_climbing-stairs.cpp"
+  },
+  {
+    "num": 45,
+    "name": "Coin Change",
+    "slug": "coin-change",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "45_coin-change.cpp"
+  },
+  {
+    "num": 46,
+    "name": "Longest Increasing Subsequence",
+    "slug": "longest-increasing-subsequence",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "46_longest-increasing-subsequence.cpp"
+  },
+  {
+    "num": 47,
+    "name": "Longest Common Subsequence",
+    "slug": "longest-common-subsequence",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "47_longest-common-subsequence.cpp"
+  },
+  {
+    "num": 48,
+    "name": "Word Break",
+    "slug": "word-break",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "48_word-break.cpp"
+  },
+  {
+    "num": 49,
+    "name": "House Robber",
+    "slug": "house-robber",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "49_house-robber.cpp"
+  },
+  {
+    "num": 50,
+    "name": "Unique Paths",
+    "slug": "unique-paths",
+    "difficulty": "Medium",
+    "topic": "Dynamic Programming",
+    "file": "50_unique-paths.cpp"
+  }
+]

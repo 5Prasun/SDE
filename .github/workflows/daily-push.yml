@@ -1,0 +1,69 @@
+name: Daily SDE Push
+
+# Publishes ONE famous SDE solution per day for 50 days, then quietly stops.
+on:
+  schedule:
+    # Runs at 04:30 UTC == 10:00 AM IST every day.
+    # Change this to pick your own time. Cron is in UTC (IST = UTC + 5:30).
+    - cron: "30 4 * * *"
+  workflow_dispatch:        # lets you run it manually from the Actions tab (for testing)
+
+# Only one run at a time; never overlap.
+concurrency:
+  group: daily-sde-push
+  cancel-in-progress: false
+
+permissions:
+  contents: write           # allow the workflow to push commits
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0     # full history so we can read the last commit date
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Skip if a scheduled run already pushed today
+        id: guard
+        run: |
+          LAST_DATE=$(git log -1 --format=%cd --date=format:'%Y-%m-%d' 2>/dev/null || echo "none")
+          TODAY=$(date -u +'%Y-%m-%d')
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$LAST_DATE" = "$TODAY" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Already committed today ($TODAY); skipping."
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish next solution
+        if: steps.guard.outputs.skip == 'false'
+        run: python3 scripts/publish_next.py
+
+      - name: Commit and push
+        if: steps.guard.outputs.skip == 'false'
+        run: |
+          # --- Author identity ---------------------------------------------
+          # Set these to YOUR GitHub identity so commits count as contributions
+          # (green squares). The e-mail MUST be one verified on your account,
+          # e.g. your GitHub noreply address: 1234567+yourname@users.noreply.github.com
+          git config user.name  "5Prasun"
+          git config user.email "prasun57dhn@gmail.com"
+          # -----------------------------------------------------------------
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nothing new to commit (all 50 likely published). Exiting cleanly."
+            exit 0
+          fi
+
+          DAY=$(ls solutions/*.cpp | wc -l | tr -d ' ')
+          NAME=$(ls solutions/*.cpp | sort | tail -n1 | sed 's#solutions/##; s#^[0-9]*_##; s#.cpp$##; s#-# #g')
+          git commit -m "Day ${DAY}/50: ${NAME}"
+          git push
