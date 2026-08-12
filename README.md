@@ -9,14 +9,14 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 1 / 50  (2%)
+### Progress: 2 / 50  (4%)
 
-_Last updated: 2026-08-11_
+_Last updated: 2026-08-12_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
 | 01 | [Two Sum](solutions/01_two-sum.cpp) | Easy | Arrays / Hashing | ✅ |
-| 02 | Best Time to Buy and Sell Stock | Easy | Arrays / Sliding Window | ⬜ |
+| 02 | [Best Time to Buy and Sell Stock](solutions/02_best-time-to-buy-and-sell-stock.cpp) | Easy | Arrays / Sliding Window | ✅ |
 | 03 | Contains Duplicate | Easy | Arrays / Hashing | ⬜ |
 | 04 | Product of Array Except Self | Medium | Arrays / Prefix | ⬜ |
 | 05 | Maximum Subarray | Medium | Dynamic Programming | ⬜ |
