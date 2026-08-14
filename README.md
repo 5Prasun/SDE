@@ -9,16 +9,16 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 3 / 50  (6%)
+### Progress: 4 / 50  (8%)
 
-_Last updated: 2026-08-13_
+_Last updated: 2026-08-14_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
 | 01 | [Two Sum](solutions/01_two-sum.cpp) | Easy | Arrays / Hashing | ✅ |
 | 02 | [Best Time to Buy and Sell Stock](solutions/02_best-time-to-buy-and-sell-stock.cpp) | Easy | Arrays / Sliding Window | ✅ |
 | 03 | [Contains Duplicate](solutions/03_contains-duplicate.cpp) | Easy | Arrays / Hashing | ✅ |
-| 04 | Product of Array Except Self | Medium | Arrays / Prefix | ⬜ |
+| 04 | [Product of Array Except Self](solutions/04_product-of-array-except-self.cpp) | Medium | Arrays / Prefix | ✅ |
 | 05 | Maximum Subarray | Medium | Dynamic Programming | ⬜ |
 | 06 | Maximum Product Subarray | Medium | Dynamic Programming | ⬜ |
 | 07 | Find Minimum in Rotated Sorted Array | Medium | Binary Search | ⬜ |
