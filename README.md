@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 5 / 50  (10%)
+### Progress: 6 / 50  (12%)
 
-_Last updated: 2026-08-15_
+_Last updated: 2026-08-16_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -20,7 +20,7 @@ _Last updated: 2026-08-15_
 | 03 | [Contains Duplicate](solutions/03_contains-duplicate.cpp) | Easy | Arrays / Hashing | ✅ |
 | 04 | [Product of Array Except Self](solutions/04_product-of-array-except-self.cpp) | Medium | Arrays / Prefix | ✅ |
 | 05 | [Maximum Subarray](solutions/05_maximum-subarray.cpp) | Medium | Dynamic Programming | ✅ |
-| 06 | Maximum Product Subarray | Medium | Dynamic Programming | ⬜ |
+| 06 | [Maximum Product Subarray](solutions/06_maximum-product-subarray.cpp) | Medium | Dynamic Programming | ✅ |
 | 07 | Find Minimum in Rotated Sorted Array | Medium | Binary Search | ⬜ |
 | 08 | Search in Rotated Sorted Array | Medium | Binary Search | ⬜ |
 | 09 | 3Sum | Medium | Two Pointers | ⬜ |
