@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 8 / 50  (16%)
+### Progress: 9 / 50  (18%)
 
-_Last updated: 2026-08-18_
+_Last updated: 2026-08-19_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -23,7 +23,7 @@ _Last updated: 2026-08-18_
 | 06 | [Maximum Product Subarray](solutions/06_maximum-product-subarray.cpp) | Medium | Dynamic Programming | ✅ |
 | 07 | [Find Minimum in Rotated Sorted Array](solutions/07_find-minimum-in-rotated-sorted-array.cpp) | Medium | Binary Search | ✅ |
 | 08 | [Search in Rotated Sorted Array](solutions/08_search-in-rotated-sorted-array.cpp) | Medium | Binary Search | ✅ |
-| 09 | 3Sum | Medium | Two Pointers | ⬜ |
+| 09 | [3Sum](solutions/09_3sum.cpp) | Medium | Two Pointers | ✅ |
 | 10 | Container With Most Water | Medium | Two Pointers | ⬜ |
 | 11 | Number of 1 Bits | Easy | Bit Manipulation | ⬜ |
 | 12 | Counting Bits | Easy | Bit Manipulation / DP | ⬜ |
