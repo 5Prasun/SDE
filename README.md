@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 11 / 50  (22%)
+### Progress: 12 / 50  (24%)
 
-_Last updated: 2026-08-21_
+_Last updated: 2026-08-22_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -26,7 +26,7 @@ _Last updated: 2026-08-21_
 | 09 | [3Sum](solutions/09_3sum.cpp) | Medium | Two Pointers | ✅ |
 | 10 | [Container With Most Water](solutions/10_container-with-most-water.cpp) | Medium | Two Pointers | ✅ |
 | 11 | [Number of 1 Bits](solutions/11_number-of-1-bits.cpp) | Easy | Bit Manipulation | ✅ |
-| 12 | Counting Bits | Easy | Bit Manipulation / DP | ⬜ |
+| 12 | [Counting Bits](solutions/12_counting-bits.cpp) | Easy | Bit Manipulation / DP | ✅ |
 | 13 | Missing Number | Easy | Math / Bit | ⬜ |
 | 14 | Reverse Bits | Easy | Bit Manipulation | ⬜ |
 | 15 | Longest Substring Without Repeating Characters | Medium | Sliding Window | ⬜ |
