@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 15 / 50  (30%)
+### Progress: 16 / 50  (32%)
 
-_Last updated: 2026-08-25_
+_Last updated: 2026-08-26_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -30,7 +30,7 @@ _Last updated: 2026-08-25_
 | 13 | [Missing Number](solutions/13_missing-number.cpp) | Easy | Math / Bit | ✅ |
 | 14 | [Reverse Bits](solutions/14_reverse-bits.cpp) | Easy | Bit Manipulation | ✅ |
 | 15 | [Longest Substring Without Repeating Characters](solutions/15_longest-substring-without-repeating-characters.cpp) | Medium | Sliding Window | ✅ |
-| 16 | Longest Repeating Character Replacement | Medium | Sliding Window | ⬜ |
+| 16 | [Longest Repeating Character Replacement](solutions/16_longest-repeating-character-replacement.cpp) | Medium | Sliding Window | ✅ |
 | 17 | Minimum Window Substring | Hard | Sliding Window | ⬜ |
 | 18 | Valid Anagram | Easy | Hashing | ⬜ |
 | 19 | Group Anagrams | Medium | Hashing | ⬜ |
