@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 18 / 50  (36%)
+### Progress: 19 / 50  (38%)
 
-_Last updated: 2026-08-28_
+_Last updated: 2026-08-29_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -33,7 +33,7 @@ _Last updated: 2026-08-28_
 | 16 | [Longest Repeating Character Replacement](solutions/16_longest-repeating-character-replacement.cpp) | Medium | Sliding Window | ✅ |
 | 17 | [Minimum Window Substring](solutions/17_minimum-window-substring.cpp) | Hard | Sliding Window | ✅ |
 | 18 | [Valid Anagram](solutions/18_valid-anagram.cpp) | Easy | Hashing | ✅ |
-| 19 | Group Anagrams | Medium | Hashing | ⬜ |
+| 19 | [Group Anagrams](solutions/19_group-anagrams.cpp) | Medium | Hashing | ✅ |
 | 20 | Valid Parentheses | Easy | Stack | ⬜ |
 | 21 | Reverse Linked List | Easy | Linked List | ⬜ |
 | 22 | Linked List Cycle | Easy | Linked List | ⬜ |
