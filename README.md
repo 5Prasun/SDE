@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 21 / 50  (42%)
+### Progress: 22 / 50  (44%)
 
-_Last updated: 2026-08-31_
+_Last updated: 2026-09-01_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -36,7 +36,7 @@ _Last updated: 2026-08-31_
 | 19 | [Group Anagrams](solutions/19_group-anagrams.cpp) | Medium | Hashing | ✅ |
 | 20 | [Valid Parentheses](solutions/20_valid-parentheses.cpp) | Easy | Stack | ✅ |
 | 21 | [Reverse Linked List](solutions/21_reverse-linked-list.cpp) | Easy | Linked List | ✅ |
-| 22 | Linked List Cycle | Easy | Linked List | ⬜ |
+| 22 | [Linked List Cycle](solutions/22_linked-list-cycle.cpp) | Easy | Linked List | ✅ |
 | 23 | Merge Two Sorted Lists | Easy | Linked List | ⬜ |
 | 24 | Merge k Sorted Lists | Hard | Heap / Linked List | ⬜ |
 | 25 | Remove Nth Node From End of List | Medium | Linked List | ⬜ |
