@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 26 / 50  (52%)
+### Progress: 27 / 50  (54%)
 
-_Last updated: 2026-09-05_
+_Last updated: 2026-09-06_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -41,7 +41,7 @@ _Last updated: 2026-09-05_
 | 24 | [Merge k Sorted Lists](solutions/24_merge-k-sorted-lists.cpp) | Hard | Heap / Linked List | ✅ |
 | 25 | [Remove Nth Node From End of List](solutions/25_remove-nth-node-from-end-of-list.cpp) | Medium | Linked List | ✅ |
 | 26 | [Reorder List](solutions/26_reorder-list.cpp) | Medium | Linked List | ✅ |
-| 27 | Invert Binary Tree | Easy | Trees | ⬜ |
+| 27 | [Invert Binary Tree](solutions/27_invert-binary-tree.cpp) | Easy | Trees | ✅ |
 | 28 | Maximum Depth of Binary Tree | Easy | Trees | ⬜ |
 | 29 | Same Tree | Easy | Trees | ⬜ |
 | 30 | Subtree of Another Tree | Easy | Trees | ⬜ |
