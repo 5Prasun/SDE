@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 29 / 50  (58%)
+### Progress: 30 / 50  (60%)
 
-_Last updated: 2026-09-08_
+_Last updated: 2026-09-09_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -44,7 +44,7 @@ _Last updated: 2026-09-08_
 | 27 | [Invert Binary Tree](solutions/27_invert-binary-tree.cpp) | Easy | Trees | ✅ |
 | 28 | [Maximum Depth of Binary Tree](solutions/28_maximum-depth-of-binary-tree.cpp) | Easy | Trees | ✅ |
 | 29 | [Same Tree](solutions/29_same-tree.cpp) | Easy | Trees | ✅ |
-| 30 | Subtree of Another Tree | Easy | Trees | ⬜ |
+| 30 | [Subtree of Another Tree](solutions/30_subtree-of-another-tree.cpp) | Easy | Trees | ✅ |
 | 31 | Lowest Common Ancestor of a BST | Medium | Trees / BST | ⬜ |
 | 32 | Binary Tree Level Order Traversal | Medium | Trees / BFS | ⬜ |
 | 33 | Validate Binary Search Tree | Medium | Trees / BST | ⬜ |
