@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 33 / 50  (66%)
+### Progress: 34 / 50  (68%)
 
-_Last updated: 2026-09-12_
+_Last updated: 2026-09-13_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -48,7 +48,7 @@ _Last updated: 2026-09-12_
 | 31 | [Lowest Common Ancestor of a BST](solutions/31_lowest-common-ancestor-of-a-binary-search-tree.cpp) | Medium | Trees / BST | ✅ |
 | 32 | [Binary Tree Level Order Traversal](solutions/32_binary-tree-level-order-traversal.cpp) | Medium | Trees / BFS | ✅ |
 | 33 | [Validate Binary Search Tree](solutions/33_validate-binary-search-tree.cpp) | Medium | Trees / BST | ✅ |
-| 34 | Kth Smallest Element in a BST | Medium | Trees / BST | ⬜ |
+| 34 | [Kth Smallest Element in a BST](solutions/34_kth-smallest-element-in-a-bst.cpp) | Medium | Trees / BST | ✅ |
 | 35 | Construct Binary Tree from Preorder and Inorder | Medium | Trees | ⬜ |
 | 36 | Find Median from Data Stream | Hard | Heap / Design | ⬜ |
 | 37 | Top K Frequent Elements | Medium | Heap / Bucket Sort | ⬜ |
