@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 35 / 50  (70%)
+### Progress: 36 / 50  (72%)
 
-_Last updated: 2026-09-14_
+_Last updated: 2026-09-15_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -50,7 +50,7 @@ _Last updated: 2026-09-14_
 | 33 | [Validate Binary Search Tree](solutions/33_validate-binary-search-tree.cpp) | Medium | Trees / BST | ✅ |
 | 34 | [Kth Smallest Element in a BST](solutions/34_kth-smallest-element-in-a-bst.cpp) | Medium | Trees / BST | ✅ |
 | 35 | [Construct Binary Tree from Preorder and Inorder](solutions/35_construct-binary-tree-from-preorder-and-inorder-traversal.cpp) | Medium | Trees | ✅ |
-| 36 | Find Median from Data Stream | Hard | Heap / Design | ⬜ |
+| 36 | [Find Median from Data Stream](solutions/36_find-median-from-data-stream.cpp) | Hard | Heap / Design | ✅ |
 | 37 | Top K Frequent Elements | Medium | Heap / Bucket Sort | ⬜ |
 | 38 | Combination Sum | Medium | Backtracking | ⬜ |
 | 39 | Word Search | Medium | Backtracking / DFS | ⬜ |
