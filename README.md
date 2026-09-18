@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 38 / 50  (76%)
+### Progress: 39 / 50  (78%)
 
-_Last updated: 2026-09-17_
+_Last updated: 2026-09-18_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -53,7 +53,7 @@ _Last updated: 2026-09-17_
 | 36 | [Find Median from Data Stream](solutions/36_find-median-from-data-stream.cpp) | Hard | Heap / Design | ✅ |
 | 37 | [Top K Frequent Elements](solutions/37_top-k-frequent-elements.cpp) | Medium | Heap / Bucket Sort | ✅ |
 | 38 | [Combination Sum](solutions/38_combination-sum.cpp) | Medium | Backtracking | ✅ |
-| 39 | Word Search | Medium | Backtracking / DFS | ⬜ |
+| 39 | [Word Search](solutions/39_word-search.cpp) | Medium | Backtracking / DFS | ✅ |
 | 40 | Number of Islands | Medium | Graphs / DFS | ⬜ |
 | 41 | Clone Graph | Medium | Graphs / DFS | ⬜ |
 | 42 | Course Schedule | Medium | Graphs / Topological Sort | ⬜ |
