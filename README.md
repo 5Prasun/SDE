@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 44 / 50  (88%)
+### Progress: 45 / 50  (90%)
 
-_Last updated: 2026-09-23_
+_Last updated: 2026-09-24_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -59,7 +59,7 @@ _Last updated: 2026-09-23_
 | 42 | [Course Schedule](solutions/42_course-schedule.cpp) | Medium | Graphs / Topological Sort | ✅ |
 | 43 | [Pacific Atlantic Water Flow](solutions/43_pacific-atlantic-water-flow.cpp) | Medium | Graphs / DFS | ✅ |
 | 44 | [Climbing Stairs](solutions/44_climbing-stairs.cpp) | Easy | Dynamic Programming | ✅ |
-| 45 | Coin Change | Medium | Dynamic Programming | ⬜ |
+| 45 | [Coin Change](solutions/45_coin-change.cpp) | Medium | Dynamic Programming | ✅ |
 | 46 | Longest Increasing Subsequence | Medium | Dynamic Programming | ⬜ |
 | 47 | Longest Common Subsequence | Medium | Dynamic Programming | ⬜ |
 | 48 | Word Break | Medium | Dynamic Programming | ⬜ |
