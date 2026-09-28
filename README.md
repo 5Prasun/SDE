@@ -9,9 +9,9 @@ by a scheduled GitHub Actions workflow — no manual work after setup.
 - Problem metadata is in [`data/problems.json`](data/problems.json).
 
 <!-- PROGRESS:START -->
-### Progress: 48 / 50  (96%)
+### Progress: 49 / 50  (98%)
 
-_Last updated: 2026-09-27_
+_Last updated: 2026-09-28_
 
 | Day | Problem | Difficulty | Topic | Status |
 |----:|---------|:----------:|-------|:------:|
@@ -63,7 +63,7 @@ _Last updated: 2026-09-27_
 | 46 | [Longest Increasing Subsequence](solutions/46_longest-increasing-subsequence.cpp) | Medium | Dynamic Programming | ✅ |
 | 47 | [Longest Common Subsequence](solutions/47_longest-common-subsequence.cpp) | Medium | Dynamic Programming | ✅ |
 | 48 | [Word Break](solutions/48_word-break.cpp) | Medium | Dynamic Programming | ✅ |
-| 49 | House Robber | Medium | Dynamic Programming | ⬜ |
+| 49 | [House Robber](solutions/49_house-robber.cpp) | Medium | Dynamic Programming | ✅ |
 | 50 | Unique Paths | Medium | Dynamic Programming | ⬜ |
 <!-- PROGRESS:END -->
 
